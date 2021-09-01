@@ -21,4 +21,4 @@ while x != '=':
             print('ERROR! Cannot be divided by 0')
     a = res
     x = input('choose operator: (+, -. *, / or =)')
-print('Thank you!!!')
+print('Thank you!!!!')
