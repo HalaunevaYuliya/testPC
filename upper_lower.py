@@ -31,6 +31,7 @@ def uncaps(phrase:str) -> str:
         c1 = c1 + 1
     return ''.join(phrase_lit)
 
+
 methods = ['caps', 'uncaps']
 phrase = input('Enter phrase: ')
 print('Enter method for modification ', methods, ': ')
