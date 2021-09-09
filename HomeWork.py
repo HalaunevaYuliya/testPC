@@ -65,7 +65,7 @@ while x != 0:
                 x = int(input('Выберите день для просмотра упражнений: 1, 2, 3 или 0 - '))
                 import yaml
                 if x == 1:
-                        d = day_1
+                        d = day_1 # Опять началолсь с day_1. Забудь про этот словарь.
                         print(yaml.dump(d))
                 elif x == 2:
                         d = day_2
